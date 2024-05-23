@@ -11,7 +11,7 @@ from continuum.scenarios.permutations import Permutations
 from continuum.scenarios.segmentation import SegmentationClassIncremental
 from continuum.scenarios.hashed import HashedScenario
 from continuum.scenarios.online_fellowship import OnlineFellowship
-from continuum.scenarios import hf
+#from continuum.scenarios import hf
 
 from continuum.scenarios.scenario_utils import (
     create_subscenario,
@@ -30,6 +30,6 @@ __all__ = [
     "SegmentationClassIncremental",
     "HashedScenario",
     "OnlineFellowship",
-    "hf",
+#    "hf",
     "ALMA",
 ]
